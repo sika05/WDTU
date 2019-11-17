@@ -1,7 +1,7 @@
 {
   "id": "085e8bf1-2e15-4b20-b2b3-cd9d7b939302",
-  "name": "ALProject1",
-  "publisher": "Default publisher",
+  "name": "WDTU",
+  "publisher": "Siggi Karler",
   "brief": "",
   "description": "",
   "version": "1.0.0.0",
@@ -28,8 +28,8 @@
   "platform": "15.0.0.0",
   "idRanges": [
     {
-    "from": 50000,
-    "to": 50999
+    "from": 51000,
+    "to": 51999
     }
   ],
   "showMyCode": true,
