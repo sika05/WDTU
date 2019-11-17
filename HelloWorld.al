@@ -10,10 +10,3 @@ pageextension 51100 CustomerListExt extends "Customer List"
     end;
 }
 
-pageextension 50101 ItemListExt extends "Item List"
-{
-    trigger OnOpenPage();
-    begin
-        Message('Hello User %1', UserId);
-    end;
-}
