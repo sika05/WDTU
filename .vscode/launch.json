@@ -9,7 +9,7 @@
             "serverInstance": "BC150-CH",
             "port": 7049,
             "authentication": "Windows",
-            "startupObjectId": 51100,
+            "startupObjectId": 51101,
             "startupObjectType": "Page",
             "schemaUpdateMode": "ForceSync",
             "breakOnError": true,

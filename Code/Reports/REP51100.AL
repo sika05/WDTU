@@ -3,6 +3,8 @@ report 51100 "Radio Shows"
 {
     UsageCategory = ReportsAndAnalysis;
     ApplicationArea = All;
+    WordLayout = 'RadioShows.docx';
+    RDLCLayout = 'RadioShows.RDLC';
 
     dataset
     {
@@ -20,40 +22,33 @@ report 51100 "Radio Shows"
             {
 
             }
+            column(RunTime; "Run Time")
+            {
+            }
+            column(HostCode; "Host Code")
+            {
+            }
+            column(HostName; "Host Name")
+            {
+            }
+            column(AverageListeners; "Average Listeners")
+            {
+            }
+            column(AudienceShare; "Audience Share")
+            {
+            }
+            column(AdvertisingRevenue; "Advertising Revenue")
+            {
+            }
+            column(RoyaltyCost; "Royalty Cost")
+            {
+            }
+
 
         }
     }
 
-    requestpage
-    {
-        layout
-        {
-            area(Content)
-            {
-                group(GroupName)
-                {
-                    field(Name; SourceExpression)
-                    {
-                        ApplicationArea = All;
 
-                    }
-                }
-            }
-        }
 
-        actions
-        {
-            area(processing)
-            {
-                action(ActionName)
-                {
-                    ApplicationArea = All;
 
-                }
-            }
-        }
-    }
-
-    var
-        myInt: Integer;
 }
