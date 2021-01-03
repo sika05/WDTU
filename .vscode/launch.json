@@ -4,18 +4,14 @@
         {
             "type": "al",
             "request": "launch",
-            "name": "localhost",
-            "server": "http://localhost",
-            "serverInstance": "BC150-CH",
-            "port": 7049,
-            "authentication": "Windows",
-            "startupObjectId": 51101,
-            "startupObjectType": "Page",
-            "schemaUpdateMode": "ForceSync",
+            "name": "redPoint SiKa Test",
             "breakOnError": true,
             "launchBrowser": true,
             "enableLongRunningSqlStatements": true,
-            "enableSqlInformationDebugger": true
+            "enableSqlInformationDebugger": true,
+            "tenant": "d8d673fb-f27b-4375-9b46-8833e7b7c005",
+            "environmentType": "Sandbox",
+            "environmentName": "Test-SiKa-030121"
         }
     ]
 }
